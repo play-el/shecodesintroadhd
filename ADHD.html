@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADHD
+    </title>
+    </style>
+  </head>
+    <style>
+      body {
+        background-color: #d3f6d1;
+      }
+      h1 {
+        background-image: radial-gradient(circle at 10% 20%, rgb(137, 210, 253) 0%, rgb(255, 241, 188) 90%);
+        background-position: center;
+        border-radius: 15px 50px;
+        box-shadow: 10px 10px rgb(137, 210, 253);
+        color: #5c8d89;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        margin: auto;
+        padding: 18px;
+        text-align: center; 
+      }
+      .em1 {
+        color:#5c8d89;
+        font-weight: normal;
+        font-style: italic;
+      } 
+      .em2 {
+        color: #5c8d89;
+        font-weight: normal;
+        font-style: italic; 
+      } 
+      .welcomeButton {
+        background-image: radial-gradient(circle at 10% 20%, rgb(137, 210, 253) 0%, rgb(255, 241, 188) 90%);
+        background-position: center;
+        border-radius: 15px 50px;
+        border: none;
+        box-shadow: 10px 10px rgb(137, 210, 253);
+        color: #5c8d89;
+        display: block;
+        margin: auto;
+        padding: 18px;
+        text-align: center;
+      }
+      .doubt {
+        background-color: #d3f6d1;
+        color: #5c8d89;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        font-weight: normal; 
+        letter-spacing: normal;
+        line-height: 50px;
+        text-align: center;
+        white-space: 5px;
+      }
+      .em3 {
+        color: #5c8d89;
+        font-weight: normal;
+        font-style: italic;
+      } 
+      .stylelink {
+          color:#5c8d89; 
+          text-align: center;
+          text-decoration: none;
+      }
+      .before {
+        background-color: #d3f6d1;
+        color: #5c8d89;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        font-weight: normal; 
+        letter-spacing: normal;
+        line-height: 50px;
+        text-align: center;
+        white-space: 5px;
+      }
+      h2 {
+        color: #5c8d89;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        text-align: center;
+      }
+      .w3-border {
+        border: #5c8d89;
+        border-radius: 30px;
+      }
+      .after {
+        background-color: #d3f6d1;
+        color: #5c8d89;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        font-weight: normal; 
+        letter-spacing: normal;
+        line-height: 50px;
+        text-align: center;
+        white-space: 5px;
+      }
+     h3 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        color: #5c8d89;
+        margin-top: 50px;
+        margin-bottom: 20px;
+      }
+      div {
+        display:flexbox;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        letter-spacing: normal;
+        margin: 10px 10px 10px 10px;
+        text-align: center;
+        white-space: 5px;
+        width: auto;
+      }
+      .one {
+        background: #dde0ab; 
+        color: #5c8d89;
+        line-height: 30px;
+        margin: auto;
+        padding: 25px;
+        text-align: left;
+        word-spacing: 5px;
+      }
+      .a1 {
+        color: #dde0ab;
+      }
+      .a1:hover {
+        color: #5c8d89;
+        transition: 100ms;
+      }
+      .link1 {
+        color: #5c8d89;
+        font-style: normal;
+        text-decoration: none; 
+      }
+      .two {
+        background: #97cba9; 
+        color: #5c8d89;
+        line-height: 30px;
+        margin: auto;
+        padding: 25px;
+        text-align: left;
+        word-spacing: 5px;
+      } 
+      .a2 {
+        color: #97cba9; 
+      }
+      .a2:hover {
+        color: #5c8d89;
+        transition: 100ms;
+      }
+      .link2 {
+        color: #5c8d89;;
+        font-style: normal;
+        text-decoration: none; 
+      }
+      .three {
+        background: #dde0ab; 
+        color: #5c8d89;
+        line-height: 30px;
+        margin: auto;
+        padding: 25px;
+        text-align: left;
+        word-spacing: 5px;
+      }
+      .a3 {
+       color: #dde0ab;
+      }
+      .a3:hover {
+        color: #5c8d89;
+        transition: 100ms;
+      }
+      .link3 {
+        color: #5c8d89;;
+        font-style: normal;
+        text-decoration: none; 
+      }
+      .four {
+        background: #97cba9; 
+        color: #5c8d89;
+        line-height: 30px;
+        margin: auto;
+        padding: 25px;
+        text-align: left;
+        word-spacing: 5px;
+      }
+      .a4 {
+       color: #97cba9;
+      }
+      .a4:hover {
+        color: #5c8d89;
+        transition: 100ms;
+      }
+      .link4 {
+        color: #5c8d89;
+        font-style: normal;
+        text-decoration: none; 
+      }
+      .five {
+        background: #dde0ab; 
+        color: #5c8d89;
+        line-height: 30px;
+        margin: auto;
+        padding: 25px;
+        text-align: left;
+        word-spacing: 5px;
+      }   
+      .a5 {
+        color: #dde0ab;
+      }
+      .a5:hover {
+        color: #5c8d89;
+        transition: 100ms;
+      }
+      .link5 {
+        color: #5c8d89;
+        font-style: normal;
+        text-decoration: none; 
+      }
+      p after {
+       color: #5c8d89;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        font-weight: normal; 
+        text-align: center;
+      } 
+      h4 {
+        color: #5c8d89;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        text-align: center;
+      }
+      .button-group {
+        border: none;
+        display: inline-flex;
+        text-align: center;
+      }
+      .button {
+        background: #97cba9;
+        border: none;
+        border-radius: 50px;
+        color: #5c8d89; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 24px;
+        margin-left: 18px;
+        margin-right: 18px;
+        padding: 30px; 
+        text-align: center;
+        word-spacing: 5px;
+      }
+      .smaller {
+        color: #5c8d89;
+        font-size: 18px;
+        padding: 5px;
+        white-space: 5px;
+        word-spacing: 5px;
+      }
+      h5 {
+        color: #5c8d89;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        text-align: center;
+      }
+      .container {
+        align-items: center;
+        display:flex;
+        flex-direction: row;
+        justify-content: centre;
+        white-space: 50px;
+      }
+      .child1 {
+        background: #5c8d89;
+        border-radius: 10px 100px / 120px;
+        color: #dde0ab;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 5px;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        padding: 50px;
+        text-align: center;
+        white-space: 30px;
+        word-spacing: 5px;
+      }
+      .child2 {
+        background: #5c8d89;
+        border-radius: 10px 100px / 120px;
+        color: #dde0ab;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 5px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 50px;
+        text-align: center;
+        white-space: 30px;
+        word-spacing: 5px;
+      }
+      .child3 {
+        background: #5c8d89;
+        border-radius: 10px 100px / 120px;
+        color: #dde0ab;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 5px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 50px;
+        text-align: center;
+        white-space: 30px;
+        word-spacing: 5px;
+      }
+      .child4 {
+        background: #5c8d89;
+        border-radius: 10px 100px / 120px;
+        color: #dde0ab;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 5px;
+        margin-top: 30px;
+        margin-bottom: 5px;
+        padding: 50px;
+        text-align: center;
+        text-decoration: none;
+        white-space: 30px;
+        word-spacing: 5px;
+      }
+      a {
+          color: #dde0ab;
+          text-decoration: none;
+      }
+      h6 {
+        color: #5c8d89;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        text-align: center;
+      }
+      ul {
+        background-image: radial-gradient(circle at 10% 20%, rgb(137, 210, 253) 0%, rgb(255, 241, 188) 90%);
+        background-position: center;
+        border-radius: 15px 50px;
+        box-shadow: 10px 10px rgb(137, 210, 253);
+        display:list-item;
+        list-style-type: none;
+        margin: auto;
+        padding: 18px;
+        width: 800px;
+        text-align: center;
+        text-decoration: none;
+      }
+      li {
+        color: #5c8d89; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        line-height: 20px;
+        margin: auto;
+        text-align: center;
+        text-decoration: none;
+        white-space: 20px;
+        word-spacing: 5px;
+      }
+      .no-underline {
+        color: #5c8d89;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      Attention-<span class="em1">deficit</span> hyperactivity <span class="em2">disorder</span> (ADHD)
+    </h1>
+      <p class="before">
+        Is the current term for a specific neuro-developmental <span class=em3>disorder</span> seen in both children and adults.
+    <br />
+        <strong>
+        <a href="http://www.russellbarkley.org/factsheets/adhd-facts.pdf" class="stylelink">Dr Russell Barkley developed this helpful factsheet on ADHD.</a>
+        </strong>
+    </p>
+    </h1>
+    <button class="welcomeButton">
+      Welcome! Say hello  👋
+    </button>
+    <h2>
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/034/951/original/The_Umbrella_Project.jpg?1653235617" alt="The ADHD Foundation's Neurodiversity Umbrella Project" class="w3-border" width="400" height="200">
+      <br />
+      <br />
+      ADHD IS REAL
+        <br />
+      <p class="after">
+        If you have any doubt about whether this is true or not,
+        <br />
+        ADDIS, the UK's national ADHD charity, have
+        <a href="https://adhdisreal.org/" class="stylelink">a helpful mythbusting website.</a>
+        <br />
+        &
+        <br />
+        CHADD,  Children and Adults with Attention <em>Deficit</em>, Hyperactivity </em>Disorder</em>, have 
+        <a href="https://chadd.org/about-adhd/myths-and-misunderstandings/" class="stylelink">a good list of myths and misunderstandings.</a>
+      </p>
+    </h2>
+    <h3>
+      Did you know?
+    </h3>
+      <div style="display: flex"></div>
+      <div class="one">
+        <br />
+        There are three main types of ADHD: <strong><em>inattentive, hyperactive-impulsive or combined type.</em></strong>
+        <br />
+        <span class="a1">Most individuals will be diagnosed with ADHD combined type.</span>
+        <br />
+        <a href="https://adhduk.co.uk/about-adhd/" span class="link1">More information at ADHD UK here.</a></span>
+        <br />
+      </div>
+      <div class="two">
+        <br />
+        It is <strong><em>a lifelong condition</em></strong>.
+        <br />
+        <span class="a2">In the UK, it is estminated that about 4% of adults have ADHD.</span>
+        <br /> 
+        <a href="https://cks.nice.org.uk/topics/attention-deficit-hyperactivity-disorder/background-information/prevalence/" span class="link2">
+        The National Intstitue for Health and Care Excellence has a summary here.</a></span>
+        <br />
+      </div>
+      <div class="three">
+        <br />
+        Scientists believe that <strong><em>genetics, social and evironmental</em></strong> factors all contribute.
+        <br />
+        <span class="a3">Research has proven that genetics, social and environmental factors all contribute to our differences.</span>
+        <br />
+        <a href="https://www.rcpsych.ac.uk/mental-health/problems-disorders/adhd-in-adults" span class="link3">See the Royal College of Psychiatrists ADHD in adults page here.</a></span>
+        <br />
+      </div>
+      <div class="four">
+        <br />
+        If you have ADHD you likely to have <strong><em>another neuro-developmental or mental health condition</em></strong>.
+        <br />
+        <span class="a4">It is reported that potentially up to 80% of people with ADHD have a co-existing condition.</span>
+        <br />
+        <a href="https://www.additudemag.com/adhd-and-comorbid-conditions-statistics-infographic/" class="link4"> See this helpful infographic from ADDitude magazine.</a></span>
+        <br />
+    </div>
+      <div class="five">
+        <br />
+        You can be <strong><em>waiting years for a diagnosis</em></strong> and for support.
+        <br />
+        <span class="a5">In 2020, the BBC sent Freedom of Information requests to every NHS Trust in England. 
+        They found some patients had waited up to five years for an assessment. 
+        Eleven trusts admitted having assessment waiting times of more than two years.</span> 
+        <br />
+        <a href="https://www.bbc.co.uk/news/uk-england-53526174" class="link5">The full BBC article is here.</a></span>
+        <br />
+      </div>
+    <h4> 
+        Further information and support from the leading charities 
+    </h4>
+        <div class="button-group">
+            <button class="button" type="button"><a href="https://add.org/">adda</a>
+            <br/>
+            <a class="smaller">International charity, founded over thirty years ago, to help adults with ADHD.</a>
+            </button>
+            <button class="button" type="button"><a href="https://adhdaware.org.uk/">ADHD Aware</a>
+            <br />
+            <a class="smaller">Small charity based in Brighton with a misson to support Adults with ADHD.</a>
+            </button>
+            <button class="button" type="button"><a href="https://adhduk.co.uk/">ADHD UK</a>
+            <br />
+            <a class="smaller">Charity that has been created by people with ADHD for people with ADHD.</a>
+            </button>
+            <button class="button" type="button"><a href="https://www.adhdfoundation.org.uk/">ADHD Foundation</a>
+            <br />
+            <a class="smaller">UK based neurodiveristy charity.</a>
+            </button>
+            <button class="button" type="button"><a href="https://chadd.org/">CHADD</a>
+            <br />
+            <a class="smaller">US based charity, dedicated to improving the lifes of people with ADHD.</a>
+            </button>
+            <button class="button" type="button"><a href="https://www.ukadhd.com/">uKAP</a> 
+            <br />
+            <a class="smaller">The UK ADHD Partnership for children</a>
+            </button>
+      </div>
+    <h5>
+        Other places to go to find out more
+    </h5>
+      <div class="flex-container">
+        <div class="child1">
+            <a href="https://www.additudemag.com/">ADDitude Magazine, delivering advice and support on ADHD since 1998.</a>
+        </div>
+        <div class="child2">
+            <a href="http://www.russellbarkley.org/">The offical website of Dr Russell Barkley, who dedicated his career to ADHD education and research.</a>
+        </div>
+        <div class="child3">
+            <a href="https://healthunlocked.com/">Health Unlocked, providing support and information on many health conditions including ADHD.</a>
+        </div>
+        <div class="child4">
+            <a href="https://howtoadhd.com/">The How to ADHD Channel, created and hosted by Jessica McCabe.</a>
+        </div>
+      </div>
+    <h6>
+        The UK's health, medical and other guidance
+    </h6>
+        <ul>
+            <li><a href="https://adhduk.co.uk/diagnosis-pathways/" class="no-underline">ADHD UK's information on diagnositic pathways for Adult ADHD</a></li>
+            <br />
+            <li><a href="https://www.gov.uk/adhd-and-driving" class="no-underline">Driver and Vehicle Licensing Agency's ADHD & driving guidance</a></li>
+            <br />
+            <li><a href="https://www.mind.org.uk/information-support/tips-for-everyday-living/adhd-and-mental-health/" class="no-underline">MIND's ADHD and mental health information</a></li>
+            <br />
+            <li><a href="https://www.nice.org.uk/guidance/ng87" class="no-underline">National Institute for Health & Care Excellence ADHD guidance</a></li>
+            <br />
+            <li><a href="https://www.nhs.uk/conditions/attention-deficit-hyperactivity-disorder-adhd/" class="no-underline">National Health Service's overview</a></li>
+            <br />
+            <li><a href="https://www.youngminds.org.uk/parent/parents-a-z-mental-health-guide/adhd/" class="no-underline">Young Minds' guidance for parents</a></li>
+        </ul> 
+    <br />
+  <script>
+    function sayHello() {
+    let welcome = prompt("Welcome, what's your name?");
+        alert("Welcome " + welcome + ", it's so great you want to know more about ADHD. ");
+    let you = prompt("How much do you know already? Choose a number between 1-5, where 1 is 'I'm only a beginner' and 5 is 'listen, I'm an expert.'");
+      if (you <= 2) {
+        alert(welcome + ", I hope you find out lots about ADHD on this page. Check out the charities mentioned under further information and support. ");
+      } else if (you == 3) {
+        alert(welcome + ", you know so much already! I hope you can still find out a bit more on this page. Maybe test yourself on the mythbusting sites! ");
+      } else { (you >= 4)
+        alert (welcome + ", you really are an expert! I think you might have to check this page out to make sure nothing is missed...");
+      }
+    }
+      let welcomeButton = document.querySelector("button");
+
+      welcomeButton.addEventListener("click", sayHello);
+  </script>
+  </body>
+</html> 
